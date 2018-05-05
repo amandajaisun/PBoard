@@ -5,12 +5,15 @@ import java.net.URL;
 import javax.sound.sampled.*;
 import javax.swing.*;
 
-// To play sound using Clip, the process need to be alive.
-// Hence, we use a Swing application.
+
 public class SoundClipTest extends JFrame {
 
-   // Constructor
+   
    public SoundClipTest() {
+	   
+   }
+   
+   public void playSound() {
       this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       this.setTitle("Test Sound Clip");
       this.setSize(300, 200);
